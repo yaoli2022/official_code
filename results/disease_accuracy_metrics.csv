@@ -1,0 +1,4 @@
+scope,disease,model,MAE,MedAE,RMSE,MSE,R2,r,bias,p90,MAE_sd,MedAE_sd,RMSE_sd,MSE_sd,R2_sd,r_sd,bias_sd,p90_sd,calib_slope,calib_slope_sd
+all,Ovarian Cancer,CNN based GNN,4.8199,3.5913,6.8404,48.2917,0.4455,0.7394,-2.6049,9.9281,0.9163,0.7622,1.268,17.2364,0.1979,0.1155,1.1682,1.7717,0.9457,0.0171
+all,Ovarian Cancer,Horvath,7.9712,6.2504,11.337,128.5285,-0.4759,0.5174,-5.9463,15.0845,,,,,,,,,0.8606,
+all,Ovarian Cancer,AltumAge,5.6435,4.2437,7.6907,59.1466,0.3208,0.6615,-2.9184,12.0395,,,,,,,,,0.9157,

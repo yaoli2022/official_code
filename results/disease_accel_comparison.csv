@@ -1,0 +1,19 @@
+disease,age_group,scope,model,n_samples,n_runs,accel_raw_mean,accel_raw_sd,accel_adj_mean,accel_adj_sd
+Ovarian Cancer,ALL,all,CNN based GNN,266,15,-2.6049,1.1682,-0.3843,0.6583
+Ovarian Cancer,ALL,all,Horvath,266,1,-5.9463,,0.3234,
+Ovarian Cancer,ALL,all,AltumAge,266,1,-2.9184,,-0.8141,
+Ovarian Cancer,45-55,all,CNN based GNN,34,15,3.3614,2.3784,4.7972,2.0559
+Ovarian Cancer,45-55,all,Horvath,34,1,1.2219,,5.4774,
+Ovarian Cancer,45-55,all,AltumAge,34,1,3.628,,4.5137,
+Ovarian Cancer,55-65,all,CNN based GNN,92,15,-1.0258,1.4056,0.8731,0.9611
+Ovarian Cancer,55-65,all,Horvath,92,1,-4.197,,1.247,
+Ovarian Cancer,55-65,all,AltumAge,92,1,-0.5323,,1.0723,
+Ovarian Cancer,65-75,all,CNN based GNN,94,15,-3.6468,1.1971,-1.1972,0.9208
+Ovarian Cancer,65-75,all,Horvath,94,1,-7.0959,,-0.2385,
+Ovarian Cancer,65-75,all,AltumAge,94,1,-4.1366,,-1.6769,
+Ovarian Cancer,75-80,all,CNN based GNN,27,15,-6.4713,1.9268,-3.6443,1.7318
+Ovarian Cancer,75-80,all,Horvath,27,1,-10.2217,,-2.3957,
+Ovarian Cancer,75-80,all,AltumAge,27,1,-7.4956,,-4.4499,
+Ovarian Cancer,80+,all,CNN based GNN,19,15,-10.2791,2.9261,-7.0906,2.7089
+Ovarian Cancer,80+,all,Horvath,19,1,-15.4813,,-6.7276,
+Ovarian Cancer,80+,all,AltumAge,19,1,-13.6544,,-10.0474,
