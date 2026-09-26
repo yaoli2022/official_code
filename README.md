@@ -43,7 +43,7 @@ official_code/
 | `main_code/train.py`                        | Trains and evaluates one configuration: sequence variant x graph operator x fold x seed (step 2 below).                                                        |
 | `main_code/make_configs.py`                 | Writes ready-made run lists to `configs/*.tsv`, one `train.py` argument set per line.                                                                          |
 | `main_code/freeze_order.py`                 | Optional. Pins the dataset concatenation order to `cache/file_order.json` so that fold membership is identical on every machine.                               |
-| `main_code/baselines_dlorig.py`             | DeepMAge and ResNetAge baselines, 5 folds x 3 seeds, on the same split as the graph model.                                                                     |
+| `main_code/baselines_dlorig.py`             | Baselines, 5 folds x 3 seeds, on the same split as the graph model.                                                                     |
 | `main_code/baselines_wave0cfg.py`           | Elastic Net and tuned-MLP baselines, 5 folds x 3 seeds, on the same split. Imports the helper module `wave0_baselines.py`, which must be placed next to it.    |
 | `main_code/train_resnetage.py`              | Single-fold ResNetAge training (fold 2); writes `baselines/resnetage_*`.                                                                                       |
 | `main_code/inference_unhealthy.py`          | Runs the Horvath clock and the PNA checkpoints in `checkpoints/` on the disease cohort in `data/unhelathy-dataset/`.                                           |
