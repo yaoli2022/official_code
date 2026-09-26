@@ -171,30 +171,6 @@ Each run writes the following into its own directory under `runs/`:
 | `log.txt`              | Full console log, appended across restarts.                                                                                                                        |
 
 
-
-
-### Other configurations and baselines
-
-The remaining rows of the results tables are produced by the same pipeline with
-different arguments. Unless shown, `train.py` runs use its default schedule
-(`--patience 4 --min-lr 1e-11`) and no `--tag`; all other arguments are as in
-the single-run command above, looped over the same 5 folds x 3 seeds.
-
-
-| Configuration                       | Command                                                                                          |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Sequence-conditioned PNA (proposed) | `python main_code/train.py --variant cnn --gnn pna --patience 10 --min-lr 1e-7 --tag _sched ...` |
-| Sequence-agnostic PNA               | `python main_code/train.py --variant none --gnn pna ...`                                         |
-| Sequence-agnostic MLP               | `python main_code/train.py --variant none --gnn mlp ...`                                         |
-| Sequence-conditioned MLP            | `python main_code/train.py --variant cnn --gnn nograph ...`                                      |
-| Permuted-sequence PNA               | `python main_code/train.py --variant cnn_perm --gnn pna ...`                                     |
-| Elastic Net                         | `python main_code/baselines_wave0cfg.py --model en`                                              |
-| ResNetAge                           | `python main_code/baselines_dlorig.py --model resnetage`                                         |
-
-
-`make_configs.py` writes ready-made run lists for these configurations to
-`configs/*.tsv`; each line is one `train.py` argument set.
-
 ---
 
 
